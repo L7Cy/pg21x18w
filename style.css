@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*========================================================================*/
+/* reset css
+/*========================================================================*/
+
+/*body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }*/
+/*html { overflow-y: scroll; }*/
+/*h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }*/
+h1 {text-align: justify;}
+ol, ul { list-style:none; }
+fieldset, img { border:0; }
+caption, th { text-align: left; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal; }
+li img { vertical-align:bottom; }
+
+/*========================================================================*/
+/* body
+/*========================================================================*/
+
+body { color:#333; font-size:14px; line-height:1.6em; background:#eee; text-align:center; }
+
+/*========================================================================*/
+/* footer
+/*========================================================================*/
+
+footer{text-align: justify;}
+a.remove_cookie { /*position:absolute; top:30%;*/ cursor:pointer; }
+
+/*========================================================================*/
+/* modal
+/*========================================================================*/
+
+#modal { display:none; }
+#confirm_modal { width:450px; background:#eee; padding:30px 10px 50px; border:1px #ccc solid; border-radius:10px; box-shadow:0 0 20px #000; }
+#confirm_modal p { margin-bottom:1em; }
+#confirm_modal table { margin:0 auto; }
+#confirm_modal a { cursor:pointer; }
