@@ -7,7 +7,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>pg21x18w</title>
+	<title>赤城樹2031003</title>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.min.js"></script>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.cookie.js"></script>
 	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.simplemodal.1.4.2.min.js"></script>
@@ -45,7 +45,7 @@
 </head>
 
 <body>
-	<h1>赤城樹　2031003</h1>
+	<h1 class="time"><%= new java.util.Date() %></h1>
 
 	<div id="modal">
 
