@@ -1,12 +1,16 @@
+<%@ page language="java"
+	contentType="text/html;
+	charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE HTML>
 <html>
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>pg21x18w</title>
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="jquery.cookie.js"></script>
-	<script type="text/javascript" src="jquery.simplemodal.1.4.2.min.js"></script>
+	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.min.js"></script>
+	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.cookie.js"></script>
+	<script type="text/javascript" src="<%= request.getContextPath() %>/jquery.simplemodal.1.4.2.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function () {
 			var over18 = jQuery.cookie('over18');
@@ -37,7 +41,7 @@
 			});
 		}
 	</script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/style.css">
 </head>
 
 <body>
@@ -52,10 +56,10 @@
 
 		<table border="0" cellspacing="0" cellpadding="0">
 			<tr>
-				<td><a class="yes"><img src="enter.png" width="160" height="70" alt="ENTER" /><img src="confirm.png"
+				<td><a class="yes"><img src="<%= request.getContextPath() %>/enter.png" width="160" height="70" alt="ENTER" /><img src="<%= request.getContextPath() %>/confirm.png"
 							width="70" height="70" alt="" /></a></td>
 				<td></td>
-				<td><a href="https://kids.yahoo.co.jp/"><img src="leave.png" width="160" height="70" alt="EXIT" /></a>
+				<td><a href="https://kids.yahoo.co.jp/"><img src="<%= request.getContextPath() %>/leave.png" width="160" height="70" alt="EXIT" /></a>
 				</td>
 			</tr>
 		</table>
